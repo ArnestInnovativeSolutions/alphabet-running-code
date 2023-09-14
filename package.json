@@ -1,6 +1,6 @@
 {
   "name": "alphabet-running-code",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Generates Next Alphabetical Code starting from A to Z",
   "main": "index.js",
   "scripts": {
