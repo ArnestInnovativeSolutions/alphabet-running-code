@@ -6,10 +6,19 @@
   [![NPM Downloads][npm-downloads-image]][npm-downloads-url]
 
 ```js
-const codeGen = require('alphabet-running-code')
+const codeGen = require('alphabet-running-code');
 
 const nextCode = codeGen.getNextCode("ABCD");
 console.log("Next code", nextCode);
+```
+```ts
+import { getNextCode, getNextCodeWithDecoration } from 'alphabet-running-code';
+
+const nextCode = getNextCode("ABCD");
+console.log("Next code", nextCode);
+
+const nextCoded = getNextCodeWithDecoration("ABCD", "(", ")");
+console.log("Next code", nextCoded);
 ```
 
 ## Installation
